@@ -1,0 +1,31 @@
+/*Purpose: Media queries and responsive adjustments*/
+
+/* DESKTOP BREAKPOINT */
+
+@media (min-width: 768px) {
+
+}
+
+
+
+@media (min-width: 960px) {
+
+    .container {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    .header-container {
+        height: 75px; /* If you edit header-container height also make main.padding-top exact same */
+    }
+
+    main {
+        padding-top: 75px; /* If you edit header-container height also make main.padding-top exact same */
+    }
+
+    .nav {
+    position: static;
+    transform: none;
+    }
+
+}

@@ -1,0 +1,81 @@
+/*Purpose: Reset, variables, typography, global styles*/
+
+/* CSS RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 4000px;
+}
+
+main {
+    padding-top: 60px;
+}
+
+/* VARIABLES */
+
+:root {
+    /* colors */
+
+    --color-font-primary: #000;
+    --color-font-heading: #3B3B3B;
+    --color-font-secondary: #747676;
+    --color-background-primary: #ffffff;
+    --color-border: #9E9E9E;
+    --color-placeholder: #D9D9D9;
+    --color-background-secondary: #F5F5F5;
+
+    /* typography */
+
+    --font-main: "Inter", system-ui, sans-serif;
+}
+
+
+
+/* BASE TYPOGRAPHY */
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-background-primary);
+    color: var(--color-font-primary);
+}
+body {
+    padding-bottom: 100px;
+}
+
+
+
+/* CONTAINER */
+
+.container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/* LINKS */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.vertical-center {
+    align-items: center;
+}

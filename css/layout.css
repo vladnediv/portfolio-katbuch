@@ -1,0 +1,56 @@
+/*Purpose: Page layout (header, hero, sections, footer)*/
+
+/* HEADER */
+
+.header-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 60px;
+
+    background: var(--color-background-primary);
+    z-index: 1000;
+}
+
+.logo {
+    font-size: clamp(18px, 4vw, 24px);
+}
+
+/* NAV */
+.nav {
+    display: flex;
+    gap: 22px;
+
+    padding: 8px;
+
+    border: 1px solid var(--color-border);
+    border-radius: 86px;
+
+    background-color: transparent;
+}
+
+.nav {
+    position: fixed;
+
+    bottom: 20px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    z-index: 1000;
+}
+
+.nav a {
+    display: flex;
+}
+
+.nav-icon {
+    width: 32px;
+    height: 32px;
+}
