@@ -12,12 +12,11 @@
     padding: 0;
 }
 
-body {
-    height: 4000px;
-}
-
 main {
     padding-top: 60px;
+}
+h1 {
+    font-size: 36px;
 }
 
 /* VARIABLES */

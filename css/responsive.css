@@ -10,6 +10,10 @@
 
 @media (min-width: 960px) {
 
+    h1 {
+        font-size: 48px;
+    }
+
     .container {
         margin-left: 80px;
         margin-right: 80px;
@@ -24,8 +28,15 @@
     }
 
     .nav {
-    position: static;
-    transform: none;
+        position: static;
+        transform: none;
     }
 
+    .hero {
+        height: 740px;
+    }
+
+    .hero-heading {
+        width: 45%;
+    }
 }
