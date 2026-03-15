@@ -46,13 +46,13 @@
 
     .hero-button {
         width: auto;
-        padding: 13px 24px 13px 24px;
+        padding: 13px 24px 13px 24px;;
     }
 
     .clients-carousel {
-        --item-width: 80px;
-        --item-height: 32px;
-        --visible-items: 4;
-        --gap: 16px;
+        --item-width: 96px;
+    --item-height: 36px;
+    --visible-items: 6;
+    --gap: 16px;
     }
 }

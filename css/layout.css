@@ -74,14 +74,16 @@
     width: 100%;
     padding: 13px 89px 13px 89px;
     font-size: 20px;
+    color: var(--color-font-primary);
+    margin-top: 48px;
 }
 
 /* CAROUSEL */
 .clients-carousel {
-    --item-width: 96px;
-    --item-height: 36px;
+    --item-width: 80px;
+    --item-height: 32px;
     --gap: 16px;
-    --visible-items: 6;
+    --visible-items: 4;
 
     position: relative;
     width: calc(
