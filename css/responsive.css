@@ -46,7 +46,8 @@
 
     .hero-button {
         width: auto;
-        padding: 13px 24px 13px 24px;;
+        padding: 13px 24px 13px 24px;
+        margin-top: 0px;
     }
 
     .clients-carousel {
