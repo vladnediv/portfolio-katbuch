@@ -78,3 +78,13 @@ a {
 .vertical-center {
     align-items: center;
 }
+
+.responsive-orientation {
+    flex-direction: column;
+}
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-font-secondary);
+}

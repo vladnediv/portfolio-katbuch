@@ -39,4 +39,20 @@
     .hero-heading {
         width: 45%;
     }
+
+    .responsive-orientation {
+        flex-direction: row;
+    }
+
+    .hero-button {
+        width: auto;
+        padding: 13px 24px 13px 24px;
+    }
+
+    .clients-carousel {
+        --item-width: 80px;
+        --item-height: 32px;
+        --visible-items: 4;
+        --gap: 16px;
+    }
 }
